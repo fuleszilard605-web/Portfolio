@@ -1,50 +1,1177 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ========================================
+     NAVIGATION
+========================================= -->
 
-    <title>My Portfolio</title>
+<header class="navbar" id="top">
+    <nav class="container nav-inner" aria-label="Main navigation">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 80px auto;
-            padding: 20px;
-            background: #111827;
-            color: white;
-        }
+        <a href="#top" class="brand" aria-label="Szilard Fule portfolio home">
+            <span class="brand-mark">SF</span>
+            <span>Szilard Fule</span>
+            <span class="availability">Portfolio</span>
+        </a>
 
-        h1 {
-            font-size: 3rem;
-        }
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests">UX Interests</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact" class="nav-contact">Contact</a></li>
+        </ul>
 
-        p {
-            color: #cbd5e1;
-            line-height: 1.6;
-        }
+    </nav>
+</header>
 
-        a {
-            color: #60a5fa;
-        }
-    </style>
-</head>
-<body>
-    <h1>Hi, I'm Szilard.</h1>
 
-    <p>Welcome to my portfolio website!</p>
+<main>
 
-    <h2>About Me</h2>
-    <p>As a Psychology and Computing student, I am a research and user experience focused programmer interested in translating users' needs into application people WANT to use. </p>
-    <ul>
-        <li>I have used programming languages such as Python, C#, HTML, and have tinkered with SQL and Javascript. </li>
-        <li>I have used Figma for producing design mockups and user interaction flows.</li>
-        <li>I have created a low fidelity Unity and C# based functional prototype.</li>
-    </ul>
-    <br>
+    <!-- ========================================
+         HERO SECTION
+    ========================================= -->
 
-    <h2>Projects</h2>
-    <p>Check back soon for my latest projects!</p>
-</body>
-</html>
+    <section class="hero">
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+                <div class="hero-label">
+                    <span>●</span>
+                    Psychology & Computing · University College Cork
+                </div>
+
+                <h1>
+                    Understanding people.<br>
+                    <span class="accent-text">Building experiences.</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    I'm a Psychology and Computing student interested in
+                    the intersection of <strong>human behaviour, user
+                    experience, and software development</strong>.
+                    I want to understand what people need from technology
+                    and translate those insights into applications that
+                    people genuinely want to use.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="button button-primary">
+                        Explore my projects <span aria-hidden="true">→</span>
+                    </a>
+
+                    <a href="#about" class="button button-secondary">
+                        Get to know me
+                    </a>
+                </div>
+
+            </div>
+
+
+            <aside class="hero-focus" aria-label="Areas of focus">
+
+                <div class="hero-focus-label">
+                    My areas of focus
+                </div>
+
+                <div class="focus-item">
+                    <div class="focus-icon" aria-hidden="true">⌕</div>
+                    <div>
+                        <h3>User Research</h3>
+                        <p>
+                            Applying psychological thinking to understand
+                            people, their behaviour, and their needs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="focus-item">
+                    <div class="focus-icon" aria-hidden="true">◇</div>
+                    <div>
+                        <h3>UX & Interaction Design</h3>
+                        <p>
+                            Exploring user journeys, interface concepts,
+                            and intuitive interaction patterns.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="focus-item">
+                    <div class="focus-icon" aria-hidden="true">&lt;/&gt;</div>
+                    <div>
+                        <h3>Prototyping & Development</h3>
+                        <p>
+                            Using code and interactive prototypes to
+                            explore ideas and make concepts tangible.
+                        </p>
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         ABOUT ME
+    ========================================= -->
+
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="eyebrow">01 / About me</span>
+                <h2>Technology should work <span class="accent-text">for people.</span></h2>
+                <p class="section-description">
+                    My background combines two disciplines that I believe
+                    are most valuable when considered together: understanding
+                    human behaviour and building the technology people use.
+                </p>
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-copy">
+
+                    <p class="lead">
+                        As a third-year Psychology and Computing student
+                        at University College Cork, I'm particularly
+                        interested in how research, design, and software
+                        development can come together to create more
+                        intuitive, engaging, and useful digital experiences.
+                    </p>
+
+                    <p>
+                        Studying psychology has encouraged me to look beyond
+                        whether a piece of software simply works. I am
+                        interested in how people perceive information,
+                        make decisions, interact with their environment,
+                        and respond to the systems around them. I want to
+                        use that perspective to help identify what users
+                        actually need, rather than assuming that more
+                        features automatically lead to a better experience.
+                    </p>
+
+                    <p>
+                        My computing studies allow me to approach these
+                        questions from a practical, technical perspective.
+                        Through academic projects, I have developed
+                        experience with Python, C#, HTML, and JavaScript,
+                        as well as object-oriented programming, debugging,
+                        and building functional software. I have also
+                        explored interface design using Figma and developed
+                        a low-fidelity functional prototype using Unity and C#.
+                    </p>
+
+                    <p>
+                        I am particularly drawn to experiences where software
+                        and the physical world intersect. Devices with
+                        dedicated displays offer interesting opportunities
+                        to provide useful information and controls without
+                        unnecessarily interrupting what someone is doing.
+                        I am interested in how the timing, presentation,
+                        and accessibility of information can influence
+                        whether these interactions feel genuinely helpful
+                        or become a distraction.
+                    </p>
+
+                    <p>
+                        This is what attracts me to user experience work
+                        involving gaming, applications, and connected
+                        devices. I enjoy the challenge of considering both
+                        the person using a product and the technical
+                        constraints involved in delivering it. I want to
+                        develop my ability to translate research findings
+                        into design decisions, communicate ideas through
+                        interactive wireframes, and build prototypes that
+                        allow interaction concepts to be explored and tested.
+                    </p>
+
+                    <p>
+                        I bring an interdisciplinary perspective, a willingness
+                        to learn unfamiliar technologies, and experience
+                        working collaboratively on technical projects.
+                        I am keen to keep developing my skills in user
+                        research, usability-focused design, and prototyping
+                        while contributing to products that make technology
+                        feel more natural, accessible, and enjoyable.
+                    </p>
+
+                    <div class="about-highlight">
+                        <p>
+                            <strong>My guiding principle:</strong>
+                            understand the user, question assumptions,
+                            and use research and prototyping to explore
+                            solutions before committing to them.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <aside class="skills-panel">
+
+                    <h3>Skills & toolkit</h3>
+
+                    <div class="skill-group">
+                        <h4>Programming</h4>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>C#</li>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL fundamentals</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Design & prototyping</h4>
+                        <ul class="skill-list">
+                            <li>Figma mockups</li>
+                            <li>User interaction flows</li>
+                            <li>Unity prototyping</li>
+                            <li>Functional game prototypes</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Research & analysis</h4>
+                        <ul class="skill-list">
+                            <li>Psychological research methods</li>
+                            <li>Data analysis</li>
+                            <li>Information gathering</li>
+                            <li>Problem solving</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-group">
+                        <h4>Working practices</h4>
+                        <ul class="skill-list">
+                            <li>Git & GitHub</li>
+                            <li>Object-oriented programming</li>
+                            <li>Team collaboration</li>
+                            <li>Debugging & troubleshooting</li>
+                            <li>Adaptability & time management</li>
+                        </ul>
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         UX INTERESTS
+    ========================================= -->
+
+    <section class="section" id="interests">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="eyebrow">02 / Areas of interest</span>
+                <h2>Where psychology meets <span class="accent-text">technology.</span></h2>
+                <p class="section-description">
+                    These are the questions and challenges that motivate
+                    me to explore user experience, interaction design,
+                    and the development of useful software.
+                </p>
+            </div>
+
+
+            <div class="interest-grid">
+
+                <article class="interest-card">
+                    <span class="interest-number">01 — PEOPLE</span>
+                    <h3>Understanding user needs</h3>
+                    <p>
+                        Understanding what users are trying to accomplish,
+                        what information matters to them, and what makes
+                        an interaction feel intuitive. My psychology
+                        background motivates me to consider the reasoning
+                        and behaviour behind design decisions.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-number">02 — INTERACTIONS</span>
+                    <h3>Seamless user experiences</h3>
+                    <p>
+                        Exploring how interfaces can provide useful
+                        information and accessible controls without
+                        disrupting a user's primary activity. I am
+                        especially interested in gaming environments,
+                        secondary displays, and context-aware interactions.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-number">03 — PROTOTYPES</span>
+                    <h3>Turning ideas into something testable</h3>
+                    <p>
+                        Using wireframes and functional prototypes to
+                        make ideas tangible. I want to explore how early
+                        implementation, feedback, and iteration can help
+                        identify interaction problems and improve a design.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-number">04 — INFORMATION</span>
+                    <h3>Useful information at the right time</h3>
+                    <p>
+                        Considering how information is organised and
+                        presented, and how people can quickly understand
+                        what matters. I am interested in balancing
+                        information density, clarity, and accessibility.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-number">05 — ACCESSIBILITY</span>
+                    <h3>Designing for different people</h3>
+                    <p>
+                        Considering how different cognitive abilities,
+                        levels of experience, and interaction needs
+                        influence the way people use technology.
+                        My serious game project introduced me to
+                        accessibility-focused development.
+                    </p>
+                </article>
+
+                <article class="interest-card">
+                    <span class="interest-number">06 — EVIDENCE</span>
+                    <h3>Research-informed decisions</h3>
+                    <p>
+                        Connecting psychological research and practical
+                        design questions. I am interested in using
+                        evidence to explain why an interface may work
+                        well, where friction may occur, and what could
+                        be explored through further testing.
+                    </p>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         PROJECTS
+    ========================================= -->
+
+    <section class="section" id="projects">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="eyebrow">03 / Selected work</span>
+                <h2>Projects & <span class="accent-text">experimentation.</span></h2>
+                <p class="section-description">
+                    A selection of academic software projects exploring
+                    interactive systems, functional prototypes, and
+                    user input. Each project has helped me develop a
+                    different aspect of my technical and problem-solving skills.
+                </p>
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1: SERIOUS GAME -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <!--
+                            TO ADD YOUR IMAGE:
+                            1. Upload an image to your repository's images folder.
+                            2. Name it serious-game.jpg.
+                            3. Uncomment the img element below.
+                            4. Keep the image in the same folder as index.html's
+                               relative path: images/serious-game.jpg.
+                        -->
+
+                        <div class="image-placeholder">
+                            <div class="image-placeholder-icon" aria-hidden="true">◇</div>
+                            <strong>Serious Game Prototype</strong>
+                            <span>Add your Unity project screenshot here</span>
+                        </div>
+
+                        <!--
+                        <img
+                            src="images/serious-game.jpg"
+                            alt="Screenshot of the serious game prototype"
+                        >
+                        -->
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+                            <span class="project-category">Game Development</span>
+                            <span class="project-dot"></span>
+                            <span class="project-type">Group Project</span>
+                        </div>
+
+                        <h3>Serious Game for Cognitive Rehabilitation</h3>
+
+                        <p>
+                            A group software development project focused
+                            on creating a cognitive impairment tool
+                            intended to support memory rehabilitation
+                            in an elderly population.
+                        </p>
+
+                        <div class="project-detail">
+                            <h4>My contribution</h4>
+                            <p>
+                                Worked as a developer using Unity and C#,
+                                contributing to a functional prototype.
+                                The project involved object-oriented
+                                programming, debugging, team collaboration,
+                                and accessibility-focused design.
+                            </p>
+                        </div>
+
+                        <div class="project-detail">
+                            <h4>What I learned</h4>
+                            <p>
+                                Developing interactive software requires
+                                attention to both implementation and the
+                                needs of its intended users. Working in
+                                a team also provided experience with
+                                version control, collaborative development,
+                                and technical communication.
+                            </p>
+                        </div>
+
+                        <div class="project-outcome">
+                            <span class="outcome-marker" aria-hidden="true">✓</span>
+                            <span>
+                                <strong>Recognition:</strong> Received an
+                                Academic Award from the lecturer for the
+                                final deliverable.
+                            </span>
+                        </div>
+
+                        <ul class="tag-list" aria-label="Technologies and skills">
+                            <li class="tag">C#</li>
+                            <li class="tag">Unity</li>
+                            <li class="tag">Prototyping</li>
+                            <li class="tag">Git & GitHub</li>
+                            <li class="tag">Teamwork</li>
+                            <li class="tag">Accessibility</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2: PYTHON CENTIPEDE GAME -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <!--
+                            Replace this placeholder with your image by
+                            uploading images/centipede-game.jpg and
+                            uncommenting the img element.
+                        -->
+
+                        <div class="image-placeholder">
+                            <div class="image-placeholder-icon" aria-hidden="true">⌘</div>
+                            <strong>Interactive Python Game</strong>
+                            <span>Add a screenshot of your game here</span>
+                        </div>
+
+                        <!--
+                        <img
+                            src="images/centipede-game.jpg"
+                            alt="Screenshot of the Python Centipede game"
+                        >
+                        -->
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+                            <span class="project-category">Interactive Software</span>
+                            <span class="project-dot"></span>
+                            <span class="project-type">Academic Project</span>
+                        </div>
+
+                        <h3>Python Centipede Game</h3>
+
+                        <p>
+                            An interactive game developed in Python
+                            featuring physical hardware controls.
+                            The project combined software development
+                            with sensor-based input using the
+                            Circuit Playground Express.
+                        </p>
+
+                        <div class="project-detail">
+                            <h4>Technical approach</h4>
+                            <p>
+                                Applied object-oriented programming,
+                                event-driven programming, external
+                                libraries, and sensor input processing
+                                to connect physical controls with
+                                in-game interactions.
+                            </p>
+                        </div>
+
+                        <div class="project-detail">
+                            <h4>What I learned</h4>
+                            <p>
+                                Integrating hardware and software
+                                requires careful handling of inputs
+                                and the relationship between physical
+                                actions and digital responses. This
+                                project strengthened my understanding
+                                of interactive systems and debugging.
+                            </p>
+                        </div>
+
+                        <div class="project-outcome">
+                            <span class="outcome-marker" aria-hidden="true">✓</span>
+                            <span>
+                                Successfully integrated external
+                                libraries and physical sensor input
+                                into an interactive game.
+                            </span>
+                        </div>
+
+                        <ul class="tag-list" aria-label="Technologies and skills">
+                            <li class="tag">Python</li>
+                            <li class="tag">Hardware Integration</li>
+                            <li class="tag">Sensor Input</li>
+                            <li class="tag">Event-Driven Programming</li>
+                            <li class="tag">OOP</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3: JAVASCRIPT GAME -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <!--
+                            Replace this placeholder with your image by
+                            uploading images/javascript-game.jpg and
+                            uncommenting the img element.
+                        -->
+
+                        <div class="image-placeholder">
+                            <div class="image-placeholder-icon" aria-hidden="true">&lt;/&gt;</div>
+                            <strong>JavaScript Game</strong>
+                            <span>Add a screenshot of your game here</span>
+                        </div>
+
+                        <!--
+                        <img
+                            src="images/javascript-game.jpg"
+                            alt="Screenshot of the JavaScript game"
+                        >
+                        -->
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+                            <span class="project-category">Web Development</span>
+                            <span class="project-dot"></span>
+                            <span class="project-type">Academic Project</span>
+                        </div>
+
+                        <h3>JavaScript Interactive Game</h3>
+
+                        <p>
+                            An interactive JavaScript game featuring
+                            dynamic object generation, player input,
+                            responsive controls, and state-based gameplay.
+                        </p>
+
+                        <div class="project-detail">
+                            <h4>Technical approach</h4>
+                            <p>
+                                Implemented game logic, event-driven
+                                behaviour, interactive elements, and
+                                input handling to create a responsive
+                                experience that reacts to user actions.
+                            </p>
+                        </div>
+
+                        <div class="project-detail">
+                            <h4>What I learned</h4>
+                            <p>
+                                Interactive applications need to respond
+                                consistently to user input and maintain
+                                clear behaviour as the application changes
+                                state. This project strengthened my
+                                understanding of programming logic
+                                and interaction design.
+                            </p>
+                        </div>
+
+                        <div class="project-outcome">
+                            <span class="outcome-marker" aria-hidden="true">✓</span>
+                            <span>
+                                Developed an interactive application
+                                with dynamic elements and user-controlled
+                                gameplay.
+                            </span>
+                        </div>
+
+                        <ul class="tag-list" aria-label="Technologies and skills">
+                            <li class="tag">JavaScript</li>
+                            <li class="tag">Game Logic</li>
+                            <li class="tag">User Input</li>
+                            <li class="tag">Event-Driven Programming</li>
+                            <li class="tag">Interaction Design</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 4: UX DESIGN AND FIGMA -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <!--
+                            If you have Figma mockups or interaction flows,
+                            export a screenshot and upload it as
+                            images/figma-design.jpg.
+                            Then uncomment the img element below.
+                        -->
+
+                        <div class="image-placeholder">
+                            <div class="image-placeholder-icon" aria-hidden="true">▤</div>
+                            <strong>Interface Design & User Flows</strong>
+                            <span>Add your Figma mockups here</span>
+                        </div>
+
+                        <!--
+                        <img
+                            src="images/figma-design.jpg"
+                            alt="Screenshot of interface mockups and user flows"
+                        >
+                        -->
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+                            <span class="project-category">UX & UI Design</span>
+                            <span class="project-dot"></span>
+                            <span class="project-type">Design Work</span>
+                        </div>
+
+                        <h3>Interface Mockups & Interaction Flows</h3>
+
+                        <p>
+                            Design work using Figma to explore interface
+                            layouts and user interaction flows. This
+                            provides a foundation for thinking about
+                            how users navigate an application and
+                            interact with its features.
+                        </p>
+
+                        <div class="project-detail">
+                            <h4>Design focus</h4>
+                            <p>
+                                Exploring how interface structure,
+                                the organisation of information, and
+                                the sequence of interactions can help
+                                users understand an application and
+                                move through its intended tasks.
+                            </p>
+                        </div>
+
+                        <div class="project-detail">
+                            <h4>Connection to UX</h4>
+                            <p>
+                                Wireframes and interaction flows offer
+                                a way to communicate design ideas before
+                                implementation. They can also provide
+                                a starting point for discussing user
+                                journeys and identifying questions
+                                that a prototype or usability evaluation
+                                could explore.
+                            </p>
+                        </div>
+
+                        <div class="project-outcome">
+                            <span class="outcome-marker" aria-hidden="true">✓</span>
+                            <span>
+                                Developed experience creating design
+                                mockups and mapping user interactions
+                                in Figma.
+                            </span>
+                        </div>
+
+                        <ul class="tag-list" aria-label="Tools and skills">
+                            <li class="tag">Figma</li>
+                            <li class="tag">Wireframing</li>
+                            <li class="tag">User Flows</li>
+                            <li class="tag">Interface Design</li>
+                            <li class="tag">UX Thinking</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="project-note">
+                <strong>More to come.</strong>
+                This portfolio is a work in progress. I intend to expand
+                the project descriptions with screenshots, design decisions,
+                development challenges, and reflections on what I learned.
+                Where appropriate, I also want to document how user-centred
+                thinking can inform future iterations.
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         APPROACH TO DESIGN
+    ========================================= -->
+
+    <section class="section" id="approach">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="eyebrow">04 / My approach</span>
+                <h2>From understanding to <span class="accent-text">implementation.</span></h2>
+                <p class="section-description">
+                    The following is the approach I want to develop
+                    further as I combine psychological research,
+                    interaction design, and software development.
+                </p>
+            </div>
+
+
+            <div class="process-grid">
+
+                <article class="process-step">
+                    <span class="process-step-number">STEP 01</span>
+                    <h3>Understand</h3>
+                    <p>
+                        Define the problem, identify the people involved,
+                        and investigate their goals, behaviours, and
+                        potential difficulties.
+                    </p>
+                </article>
+
+                <article class="process-step">
+                    <span class="process-step-number">STEP 02</span>
+                    <h3>Explore</h3>
+                    <p>
+                        Consider alternative approaches, examine
+                        interaction patterns, and use wireframes
+                        to communicate possible solutions.
+                    </p>
+                </article>
+
+                <article class="process-step">
+                    <span class="process-step-number">STEP 03</span>
+                    <h3>Prototype</h3>
+                    <p>
+                        Build an interactive representation of an idea
+                        to investigate its core functionality and
+                        explore how its interactions work.
+                    </p>
+                </article>
+
+                <article class="process-step">
+                    <span class="process-step-number">STEP 04</span>
+                    <h3>Evaluate & refine</h3>
+                    <p>
+                        Examine how well a proposed solution addresses
+                        the original problem, identify opportunities
+                        for improvement, and iterate where appropriate.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="process-disclaimer">
+                This section describes my developing design philosophy,
+                rather than claiming that every project listed above
+                followed this complete process.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         EDUCATION
+    ========================================= -->
+
+    <section class="section" id="education">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="eyebrow">05 / Education</span>
+                <h2>Building an interdisciplinary <span class="accent-text">foundation.</span></h2>
+                <p class="section-description">
+                    My education combines psychological research and
+                    human behaviour with computing, programming,
+                    and software development.
+                </p>
+            </div>
+
+
+            <div class="education-list">
+
+                <article class="education-card">
+
+                    <div class="education-date">
+                        September 2024 – Present
+                    </div>
+
+                    <div>
+                        <h3>Bachelor's Degree in Psychology and Computing</h3>
+                        <p class="education-institution">
+                            University College Cork · Cork, Ireland
+                        </p>
+
+                        <p>
+                            Currently in the third year of a four-year
+                            degree combining psychological and computing
+                            disciplines. My studies provide a foundation
+                            for approaching software development through
+                            both technical problem-solving and an
+                            understanding of people and behaviour.
+                        </p>
+
+                        <div class="education-details">
+                            <span class="tag">Web Development — 71</span>
+                            <span class="tag">Designing & Building Functional Prototypes — 74</span>
+                            <span class="tag">Intermediate Programming & Problem Solving I — 70</span>
+                            <span class="tag">Intermediate Programming & Problem Solving II — 67</span>
+                            <span class="tag">Social Computing — 67</span>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="education-card">
+
+                    <div class="education-date">
+                        January 2019 – May 2024
+                    </div>
+
+                    <div>
+                        <h3>Leaving Certificate</h3>
+                        <p class="education-institution">
+                            Pobalscoil Na Tríonóide · Youghal, Ireland
+                        </p>
+
+                        <p>
+                            Achieved 476/625 points, with all subjects
+                            except Mathematics taken at Higher Level.
+                            Studied Computer Science as part of my
+                            secondary education.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         EXPERIENCE
+    ========================================= -->
+
+    <section class="section" id="experience">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="eyebrow">06 / Experience</span>
+                <h2>Skills beyond <span class="accent-text">the classroom.</span></h2>
+                <p class="section-description">
+                    My work and volunteering experiences have helped
+                    me develop communication, organisation, attention
+                    to detail, and the ability to work responsibly
+                    with different people.
+                </p>
+            </div>
+
+
+            <div class="experience-list">
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        March 2026
+                    </div>
+
+                    <h3>Psychslam Volunteer</h3>
+
+                    <p class="experience-place">
+                        University College Cork
+                    </p>
+
+                    <ul>
+                        <li>
+                            Mentored secondary school students as they
+                            developed psychological research questions
+                            and experimental ideas.
+                        </li>
+                        <li>
+                            Guided students through experimental design,
+                            data collection, and basic research procedures.
+                        </li>
+                        <li>
+                            Supported students in independently
+                            developing and presenting their research ideas.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        May 2026 – September 2026
+                    </div>
+
+                    <h3>Housekeeping</h3>
+
+                    <p class="experience-place">
+                        Castlemartyr Resort
+                    </p>
+
+                    <ul>
+                        <li>
+                            Maintained high standards of cleanliness,
+                            presentation, and attention to detail
+                            within a five-star resort environment.
+                        </li>
+                        <li>
+                            Followed detailed procedures and quality
+                            standards while working independently
+                            and responsibly.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        September 2023 – May 2024
+                    </div>
+
+                    <h3>Linen Porter</h3>
+
+                    <p class="experience-place">
+                        Cork International Hotel
+                    </p>
+
+                    <ul>
+                        <li>
+                            Managed inventory and distribution of key
+                            supplies to support smooth daily operations.
+                        </li>
+                        <li>
+                            Assisted housekeeping staff in streamlining
+                            workflows and improving turnaround times.
+                        </li>
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         PERSONAL INTERESTS
+    ========================================= -->
+
+    <section class="section" id="personal">
+        <div class="container">
+
+            <div class="section-header">
+                <span class="eyebrow">07 / Beyond computing</span>
+                <h2>What interests me <span class="accent-text">outside the code.</span></h2>
+                <p class="section-description">
+                    My interests influence the kinds of problems,
+                    creative tools, and experiences I enjoy exploring.
+                </p>
+            </div>
+
+
+            <div class="interests-panel">
+
+                <article class="personal-interest">
+                    <h3>Gaming & PCs</h3>
+                    <p>
+                        An interest in computer gaming and PC hardware
+                        gives me a personal connection to interactive
+                        software and the experiences built around it.
+                    </p>
+                </article>
+
+                <article class="personal-interest">
+                    <h3>Photography & Videography</h3>
+                    <p>
+                        An interest in cameras, photography, and
+                        videography gives me another way to explore
+                        visual composition, creative decisions,
+                        and how people interpret visual information.
+                    </p>
+                </article>
+
+                <article class="personal-interest">
+                    <h3>Music & Creative Communities</h3>
+                    <p>
+                        Music and guitar are important personal interests.
+                        I have also been involved in college societies,
+                        including film and computing-related communities.
+                    </p>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         CONTACT
+    ========================================= -->
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+
+            <div class="contact-panel">
+
+                <div class="contact-copy">
+
+                    <span class="eyebrow">08 / Get in touch</span>
+
+                    <h2>Let's make technology <span class="accent-text">more human.</span></h2>
+
+                    <p>
+                        I'm interested in opportunities to combine
+                        psychology, user experience, and software
+                        development to create more useful and engaging
+                        digital experiences. I'd welcome the chance
+                        to learn, collaborate, and contribute to
+                        meaningful projects.
+                    </p>
+
+                    <a
+                        class="contact-email"
+                        href="mailto:124311531@umail.ucc.ie"
+                    >
+                        124311531@umail.ucc.ie
+                    </a>
+
+                </div>
+
+
+                <div class="contact-actions">
+
+                    <a
+                        href="mailto:124311531@umail.ucc.ie?subject=Portfolio%20Enquiry"
+                        class="button button-primary"
+                    >
+                        Get in touch <span aria-hidden="true">→</span>
+                    </a>
+
+                    <!--
+                        OPTIONAL:
+                        Add your GitHub profile URL below once you
+                        have confirmed the correct public profile.
+                        Replace # with your profile URL.
+                    -->
+
+                    <a
+                        href="#projects"
+                        class="button button-secondary"
+                    >
+                        View my work
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+
+<!-- ========================================
+     FOOTER
+========================================= -->
+
+<footer class="footer">
+    <div class="container footer-inner">
+
+        <p>
+            © <span id="current-year">2026</span> Szilard Fule.
+            Built with HTML and CSS.
+        </p>
+
+        <a href="#top" class="back-to-top">
+            Back to top ↑
+        </a>
+
+    </div>
+</footer>
+
+
+<!--
+    Updates the footer year automatically.
+    No external libraries or scripts are required.
+-->
+
+<script>
+    document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+</script>
