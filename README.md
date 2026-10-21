@@ -4,8 +4,8 @@ Welcome to my portfolio!
 
 ## About Me
 
-I'm a developer interested in building useful applications.
+3rd Year Psychology and Computing Student
 
 ## Projects
 
-More projects coming soon.
+Serious Game Development Low Fidelity Prototype, Python Games Using Hardware Integration and Much More
